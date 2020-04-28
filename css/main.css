@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.alert {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: -3px;
+    color: #757575;
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 180px !important;
+}
+
+.contact-form input:not([type="submit"])+i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -36px;
+    left: 10px;
+    color: #999;
+}
+
+.contact-form input {
+    padding-left: 30px;
+    padding-right: 21px;
+}
+
+.contact-form .astrisx {
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.contact-form .astrisx i {
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    color: #080;
+}
+
+.contact-form .send-icon {
+    display: block;
+    position: relative;
+    top: -36px;
+    left: 7px;
+    color: #fff;
+}
+
+.contact-form .custom-alert {
+    color: #d21313;
+    position: relative;
+    top: -10px;
+    left: 9px;
+    display: none;
+}
